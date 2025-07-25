@@ -10,93 +10,218 @@
     th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
     th { background: #f5f5f5; }
     .contact { margin-top: 2em; }
+    .language-switch { text-align: center; margin: 2em 0; }
+    .language-switch a { color: #1a6dff; text-decoration: none; margin: 0 1em; padding: 8px 16px; border-radius: 4px; }
+    .language-switch a:hover { text-decoration: underline; background: #f0f8ff; }
+    .language-switch a.active { background: #1a6dff; color: white; }
+    .content { display: none; }
+    .content.active { display: block; }
   </style>
 </head>
 <body>
-  <h1>隐私政策</h1>
-  <p><strong>生效日期：</strong>2025年7月13日</p>
-  <p>感谢您使用我们的应用「剪同款」（以下简称“本应用”）。本应用由 ZHU GUANGWEN 开发并运营。我们非常重视您的隐私，并致力于保障您的个人信息安全。请您仔细阅读本隐私政策，以了解我们如何收集、使用、存储、共享和保护您的信息，尤其是包含面部特征的数据（人脸数据）。</p>
-
-  <h2>1. 我们收集的信息</h2>
-  <p>在您使用本应用过程中，我们可能会收集以下信息：</p>
-  <h3>1.1 用户主动提供的信息：</h3>
-  <p>照片或图像数据：当您上传照片以使用发型替换、风格生成等功能时，我们会收集该图像用于图像处理目的。该照片可能包含面部特征信息。所有图像数据将通过 HTTPS 安全传输至我们的服务器处理，并与您的账户记录相关联。</p>
-  <h3>1.2 自动收集的信息：</h3>
-  <ul>
-    <li>设备信息：如设备型号、操作系统版本、唯一设备标识符、IP地址；</li>
-    <li>使用日志：包括访问时间、功能使用记录、崩溃日志等；</li>
-    <li>诊断信息：用于帮助改进服务稳定性与性能。</li>
-  </ul>
-
-  <h2>2. 面部数据（人脸数据）的收集与处理</h2>
-  <h3>2.1 收集内容</h3>
-  <p>我们不会提取或存储人脸识别模板、生物识别标识符或人脸关键点等信息。我们收集的仅为您主动上传的包含面部图像的完整照片。</p>
-  <h3>2.2 使用目的</h3>
-  <p>您上传的照片仅用于在我们的服务器上通过图像处理算法生成虚拟发型、发色、风格或背景效果。该处理过程为提供核心功能所必需，生成的图像结果将展示给您并可选择保存至您的个人记录中。</p>
-  <h3>2.3 第三方共享</h3>
-  <p>我们不会将任何包含人脸数据的图像信息分享给第三方，也不会用于广告投放、识别身份或其他非声明用途。</p>
-  <h3>2.4 存储位置与访问权限</h3>
-  <p>上传照片将存储在腾讯云托管的服务器中，数据传输和存储过程均采用加密处理。每位用户上传的图像和生成记录仅与其账户关联，其他用户或外部服务无法访问。</p>
-  <h3>2.5 保留期限</h3>
-  <p>用户上传的图像将与其账户绑定并长期保留，直至用户在应用中主动删除。您可在任何时间进入历史记录页面手动删除相应记录。</p>
-
-  <h2>3. 信息的使用方式</h2>
-  <ul>
-    <li>提供 AI 发型模拟、发色/风格/背景切换等图像处理功能；</li>
-    <li>提升产品性能、诊断问题、改进算法；</li>
-    <li>响应用户反馈和客服请求；</li>
-    <li>遵守法律法规的相关要求。</li>
-  </ul>
-  <p>我们不会将您的信息用于未经授权的用途，也绝不会出售您的任何个人数据。</p>
-
-  <h2>4. 权限申请说明</h2>
-  <table>
-    <tr>
-      <th>权限</th>
-      <th>用途说明</th>
-    </tr>
-    <tr>
-      <td>相机 / 照片访问权限</td>
-      <td>用于拍照或选择本地照片生成发型或风格效果</td>
-    </tr>
-    <tr>
-      <td>网络权限</td>
-      <td>用于与服务器通信、上传照片、获取图像处理结果</td>
-    </tr>
-    <tr>
-      <td>推送通知权限</td>
-      <td>用于向您发送每日的签到或新内容提醒。您可在设备设置中随时关闭通知权限。</td>
-    </tr>
-  </table>
-  <p>所有权限均在首次使用对应功能时征得授权，未获授权的权限将不会被调用。</p>
-
-  <h2>5. 第三方服务说明</h2>
-  <ul>
-    <li>火山引擎图像处理服务：仅用于对用户上传的照片进行图像风格生成；</li>
-    <li>腾讯云对象存储：用于保存用户生成的图像记录。</li>
-  </ul>
-  <p>我们仅与符合信息安全与合规要求的第三方服务提供商合作，并遵循最小必要原则传输数据。</p>
-
-  <h2>6. 数据存储与保护措施</h2>
-  <ul>
-    <li>传输加密：所有数据通过 HTTPS/TLS 加密传输；</li>
-    <li>服务器安全：采用访问控制、加密存储等多重机制；</li>
-    <li>权限控制：仅限授权用户访问其个人数据；</li>
-    <li>数据隔离：每位用户的数据彼此独立保存，避免越权访问。</li>
-  </ul>
-
-  <h2>7. 儿童隐私</h2>
-  <p>本应用不面向13岁以下儿童。如我们发现收集了未经监护人授权的儿童个人信息，我们将立即采取措施删除相关内容。</p>
-
-  <h2>8. 隐私政策更新</h2>
-  <p>本隐私政策可能会不定期更新。如有重大更改，我们将在应用中通过显著方式通知您，并在生效日期更新后方可继续使用。如您不同意更新内容，可选择停止使用本应用。</p>
-
-  <div class="contact">
-    <h2>9. 联系我们</h2>
-    <p>如您对本隐私政策有任何疑问、建议或投诉，请通过以下方式联系我们：</p>
-    <p>ZHU GUANGWEN<br>
-    电子邮箱：<a href="mailto:zhuguangwen666@gmail.com">zhuguangwen666@gmail.com</a></p>
-    <p>感谢您信任并使用「剪同款」应用，我们将始终致力于保护您的隐私安全。</p>
+  <div class="language-switch">
+    <a href="#" onclick="switchLanguage('chinese')" id="chinese-btn" class="active">中文</a> | 
+    <a href="#" onclick="switchLanguage('english')" id="english-btn">English</a>
   </div>
+
+  <div id="chinese" class="content active">
+    <h1>隐私政策</h1>
+    <p><strong>生效日期：</strong>2025年7月13日</p>
+    <p>感谢您使用我们的应用「剪同款」（以下简称"本应用"）。本应用由 ZHU GUANGWEN 开发并运营。我们非常重视您的隐私，并致力于保障您的个人信息安全。请您仔细阅读本隐私政策，以了解我们如何收集、使用、存储、共享和保护您的信息，尤其是包含面部特征的数据（人脸数据）。</p>
+
+    <h2>1. 我们收集的信息</h2>
+    <p>在您使用本应用过程中，我们可能会收集以下信息：</p>
+    <h3>1.1 用户主动提供的信息：</h3>
+    <p>照片或图像数据：当您上传照片以使用发型替换、风格生成等功能时，我们会收集该图像用于图像处理目的。该照片可能包含面部特征信息。所有图像数据将通过 HTTPS 安全传输至我们的服务器处理，并与您的账户记录相关联。</p>
+    <h3>1.2 自动收集的信息：</h3>
+    <ul>
+      <li>设备信息：如设备型号、操作系统版本、唯一设备标识符、IP地址；</li>
+      <li>使用日志：包括访问时间、功能使用记录、崩溃日志等；</li>
+      <li>诊断信息：用于帮助改进服务稳定性与性能。</li>
+    </ul>
+
+    <h2>2. 面部数据（人脸数据）的收集与处理</h2>
+    <h3>2.1 收集内容</h3>
+    <p>我们不会提取或存储人脸识别模板、生物识别标识符或人脸关键点等信息。我们收集的仅为您主动上传的包含面部图像的完整照片。</p>
+    <h3>2.2 使用目的</h3>
+    <p>您上传的照片仅用于在我们的服务器上通过图像处理算法生成虚拟发型、发色、风格或背景效果。该处理过程为提供核心功能所必需，生成的图像结果将展示给您并可选择保存至您的个人记录中。</p>
+    <h3>2.3 第三方共享</h3>
+    <p>我们不会将任何包含人脸数据的图像信息分享给第三方，也不会用于广告投放、识别身份或其他非声明用途。</p>
+    <h3>2.4 存储位置与访问权限</h3>
+    <p>上传照片将存储在腾讯云托管的服务器中，数据传输和存储过程均采用加密处理。每位用户上传的图像和生成记录仅与其账户关联，其他用户或外部服务无法访问。</p>
+    <h3>2.5 保留期限</h3>
+    <p>用户上传的图像将与其账户绑定并长期保留，直至用户在应用中主动删除。您可在任何时间进入历史记录页面手动删除相应记录。</p>
+
+    <h2>3. 信息的使用方式</h2>
+    <ul>
+      <li>提供 AI 发型模拟、发色/风格/背景切换等图像处理功能；</li>
+      <li>提升产品性能、诊断问题、改进算法；</li>
+      <li>响应用户反馈和客服请求；</li>
+      <li>遵守法律法规的相关要求。</li>
+    </ul>
+    <p>我们不会将您的信息用于未经授权的用途，也绝不会出售您的任何个人数据。</p>
+
+    <h2>4. 权限申请说明</h2>
+    <table>
+      <tr>
+        <th>权限</th>
+        <th>用途说明</th>
+      </tr>
+      <tr>
+        <td>相机 / 照片访问权限</td>
+        <td>用于拍照或选择本地照片生成发型或风格效果</td>
+      </tr>
+      <tr>
+        <td>网络权限</td>
+        <td>用于与服务器通信、上传照片、获取图像处理结果</td>
+      </tr>
+      <tr>
+        <td>推送通知权限</td>
+        <td>用于向您发送每日的签到或新内容提醒。您可在设备设置中随时关闭通知权限。</td>
+      </tr>
+    </table>
+    <p>所有权限均在首次使用对应功能时征得授权，未获授权的权限将不会被调用。</p>
+
+    <h2>5. 第三方服务说明</h2>
+    <ul>
+      <li>火山引擎图像处理服务：仅用于对用户上传的照片进行图像风格生成；</li>
+      <li>腾讯云对象存储：用于保存用户生成的图像记录。</li>
+    </ul>
+    <p>我们仅与符合信息安全与合规要求的第三方服务提供商合作，并遵循最小必要原则传输数据。</p>
+
+    <h2>6. 数据存储与保护措施</h2>
+    <ul>
+      <li>传输加密：所有数据通过 HTTPS/TLS 加密传输；</li>
+      <li>服务器安全：采用访问控制、加密存储等多重机制；</li>
+      <li>权限控制：仅限授权用户访问其个人数据；</li>
+      <li>数据隔离：每位用户的数据彼此独立保存，避免越权访问。</li>
+    </ul>
+
+    <h2>7. 儿童隐私</h2>
+    <p>本应用不面向13岁以下儿童。如我们发现收集了未经监护人授权的儿童个人信息，我们将立即采取措施删除相关内容。</p>
+
+    <h2>8. 隐私政策更新</h2>
+    <p>本隐私政策可能会不定期更新。如有重大更改，我们将在应用中通过显著方式通知您，并在生效日期更新后方可继续使用。如您不同意更新内容，可选择停止使用本应用。</p>
+
+    <div class="contact">
+      <h2>9. 联系我们</h2>
+      <p>如您对本隐私政策有任何疑问、建议或投诉，请通过以下方式联系我们：</p>
+      <p>ZHU GUANGWEN<br>
+      电子邮箱：<a href="mailto:zhuguangwen666@gmail.com">zhuguangwen666@gmail.com</a></p>
+      <p>感谢您信任并使用「剪同款」应用，我们将始终致力于保护您的隐私安全。</p>
+    </div>
+  </div>
+
+  <div id="english" class="content">
+    <h1>Privacy Policy</h1>
+    <p><strong>Effective Date:</strong> July 13, 2025</p>
+    <p>Thank you for using our application "Hair Style App" (hereinafter referred to as "this App"). This App is developed and operated by ZHU GUANGWEN. We highly value your privacy and are committed to protecting your personal information security. Please carefully read this Privacy Policy to understand how we collect, use, store, share, and protect your information, especially data containing facial features (face data).</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>During your use of this App, we may collect the following information:</p>
+    <h3>1.1 Information You Actively Provide:</h3>
+    <p>Photo or image data: When you upload photos to use hair style replacement, style generation, and other functions, we will collect such images for image processing purposes. These photos may contain facial feature information. All image data will be securely transmitted to our servers via HTTPS for processing and associated with your account records.</p>
+    <h3>1.2 Automatically Collected Information:</h3>
+    <ul>
+      <li>Device information: such as device model, operating system version, unique device identifier, IP address;</li>
+      <li>Usage logs: including access time, feature usage records, crash logs, etc.;</li>
+      <li>Diagnostic information: used to help improve service stability and performance.</li>
+    </ul>
+
+    <h2>2. Facial Data (Face Data) Collection and Processing</h2>
+    <h3>2.1 Collection Content</h3>
+    <p>We do not extract or store face recognition templates, biometric identifiers, or facial key points and other information. We only collect the complete photos containing facial images that you actively upload.</p>
+    <h3>2.2 Purpose of Use</h3>
+    <p>Your uploaded photos are only used to generate virtual hairstyles, hair colors, styles, or background effects through image processing algorithms on our servers. This processing is necessary to provide core functions, and the generated image results will be displayed to you and can be optionally saved to your personal records.</p>
+    <h3>2.3 Third-Party Sharing</h3>
+    <p>We will not share any image information containing face data with third parties, nor will it be used for advertising, identity recognition, or other non-declared purposes.</p>
+    <h3>2.4 Storage Location and Access Rights</h3>
+    <p>Uploaded photos will be stored on servers hosted by Tencent Cloud, with encrypted data transmission and storage processes. Each user's uploaded images and generated records are only associated with their account, and other users or external services cannot access them.</p>
+    <h3>2.5 Retention Period</h3>
+    <p>User uploaded images will be bound to their account and retained long-term until the user actively deletes them in the App. You can manually delete corresponding records in the history page at any time.</p>
+
+    <h2>3. How Information is Used</h2>
+    <p>The main purpose of collecting information is to improve product and service quality, including but not limited to:</p>
+    <ul>
+      <li>Providing AI hairstyle simulation, hair color/style/background switching and other image processing functions;</li>
+      <li>Improving product performance, diagnosing problems, and enhancing algorithms;</li>
+      <li>Responding to user feedback and customer service requests;</li>
+      <li>Complying with relevant legal and regulatory requirements.</li>
+    </ul>
+    <p>We will not use your information for unauthorized purposes, and we will never sell any of your personal data.</p>
+
+    <h2>4. Permission Application Description</h2>
+    <p>To ensure the normal operation of core functions, this App may request the following permissions:</p>
+    <table>
+      <tr>
+        <th>Permission</th>
+        <th>Purpose Description</th>
+      </tr>
+      <tr>
+        <td>Camera / Photo Access Permission</td>
+        <td>Used for taking photos or selecting local photos to generate hairstyle or style effects</td>
+      </tr>
+      <tr>
+        <td>Network Permission</td>
+        <td>Used for communicating with servers, uploading photos, and obtaining image processing results</td>
+      </tr>
+      <tr>
+        <td>Push Notification Permission</td>
+        <td>Used to send you daily check-in or new content reminders. You can turn off notification permissions in device settings at any time.</td>
+      </tr>
+    </table>
+    <p>All permissions are authorized when the corresponding function is first used, and unauthorized permissions will not be called.</p>
+
+    <h2>5. Third-Party Service Description</h2>
+    <p>This App may integrate the following third-party services:</p>
+    <ul>
+      <li>Volcano Engine Image Processing Service: Only used for image style generation of user uploaded photos;</li>
+      <li>Tencent Cloud Object Storage: Used to save user generated image records.</li>
+    </ul>
+    <p>We only cooperate with third-party service providers that meet information security and compliance requirements, and follow the principle of minimum necessity when transmitting data.</p>
+
+    <h2>6. Data Storage and Protection Measures</h2>
+    <p>We have taken reasonable security measures to protect user data:</p>
+    <ul>
+      <li>Transmission encryption: All data is transmitted through HTTPS/TLS encryption;</li>
+      <li>Server security: Multiple mechanisms including access control and encrypted storage;</li>
+      <li>Permission control: Only authorized users can access their personal data;</li>
+      <li>Data isolation: Each user's data is stored independently to avoid unauthorized access.</li>
+    </ul>
+
+    <h2>7. Children's Privacy</h2>
+    <p>This App is not intended for children under 13 years of age. If we find that we have collected children's personal information without guardian authorization, we will immediately take measures to delete the relevant content.</p>
+
+    <h2>8. Privacy Policy Updates</h2>
+    <p>This Privacy Policy may be updated from time to time. If there are significant changes, we will notify you through prominent means in the App, and you can continue using it after the effective date is updated. If you do not agree with the updated content, you can choose to stop using this App.</p>
+
+    <div class="contact">
+      <h2>9. Contact Us</h2>
+      <p>If you have any questions, suggestions, or complaints about this Privacy Policy, please contact us through the following methods:</p>
+      <p>ZHU GUANGWEN<br>
+      Email: <a href="mailto:zhuguangwen666@gmail.com">zhuguangwen666@gmail.com</a></p>
+      <p>Thank you for trusting and using the "Hair Style App". We will always be committed to protecting your privacy and security.</p>
+    </div>
+  </div>
+
+  <script>
+    function switchLanguage(lang) {
+      // Hide all content
+      document.querySelectorAll('.content').forEach(content => {
+        content.classList.remove('active');
+      });
+      
+      // Remove active class from all buttons
+      document.querySelectorAll('.language-switch a').forEach(btn => {
+        btn.classList.remove('active');
+      });
+      
+      // Show selected content
+      document.getElementById(lang).classList.add('active');
+      
+      // Add active class to selected button
+      document.getElementById(lang + '-btn').classList.add('active');
+    }
+  </script>
 </body>
 </html>
